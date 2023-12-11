@@ -1,3 +1,4 @@
+import jubayerImage from '../../assets/images/jubayer.png';
 import Typewriter from "typewriter-effect";
 import GraphemeSplitter from "grapheme-splitter";
 import "../../App.css";
@@ -8,15 +9,23 @@ export default function Home() {
     return splitter.splitGraphemes(string);
   };
   return (
-    <div className="min-h-screen grid grid-cols-1 gap-7 name content-center text-center">
+    <div className='min-h-screen '>
+    <div className="grid grid-cols-1 gap-6 name content-center md:mt-32 text-center">
+
+    <img
+            src={jubayerImage} 
+            alt="Jubayer Hossain"
+            className="flex md:hidden mt-2 mb-5 mx-auto rounded-full border-solid cursor-pointer  border-[2px] border-stone-600 min-h-fit   max-w-[50px]"
+    />
+      
       <h1
-        className="head text-3xl md:text-5xl font-semibold tracking-[3px] pb-2 "
+        className=" text-3xl md:text-5xl font-semibold tracking-[3px] pb-2 mt-6 "
         data-aos="zoom-in-up"
       >
         Welcome
       </h1>
       <div
-        className="text-2xl md:text-4xl text-yellow-500 pb-16"
+        className="text-xl md:text-4xl text-yellow-500 md:pb-16 pb-10"
         data-aos-delay="700"
         data-aos="zoom-in"
       >
@@ -24,7 +33,7 @@ export default function Home() {
         <Typewriter
           options={{
             strings: [
-              "I'm Jubayer Hossain",
+              "I'm Jubayer Hossain.",
               "I'm a MERN-Stack developer.",
             ],
             delay: 150,
@@ -62,6 +71,7 @@ export default function Home() {
           </svg>
         </a>
       </div>
+    </div>
     </div>
   );
 }

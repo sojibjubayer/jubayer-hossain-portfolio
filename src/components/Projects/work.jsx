@@ -45,7 +45,7 @@ export default function work({ title, desc, tags, link, code, img }) {
             <h3 className="text-white font-bold text-[20px] lg:text-[24px]">
               {title}
             </h3>
-            <p className="mt-2 text-secondary text-[10px] lg:text-[14px]">
+            <p className="mt-2 text-gray-300 text-center text-[10px] lg:text-[14px]">
               {desc}
             </p>
           </div>

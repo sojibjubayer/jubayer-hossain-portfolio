@@ -4,11 +4,27 @@ export const projects = [
     desc: "The Blood Donation Application is created as a user-friendly platform that facilitates blood donation activities. The application will connect donors with those in need of blood, promoting a seamless and efficient donation process.",
     tags: [
       {
-        name: "NextTs",
+        name: "React",
         color: "red-600",
       },
       {
         name: "TailwindCSS",
+        color: "green-600",
+      },
+      {
+        name: "MaterialUI",
+        color: "green-600",
+      },
+      {
+        name: "NodeJs",
+        color: "green-600",
+      },
+      {
+        name: "ExpressJs",
+        color: "green-600",
+      },
+      {
+        name: "MongoDB",
         color: "green-600",
       },
     ],
@@ -18,23 +34,27 @@ export const projects = [
   },
   {
     title: "Fitness Companions",
-    desc: "Fitness Companions website is a dedicated online platform designed to connect individuals with similar fitness goals and interests. The platform serves as a virtual community where users can  join fitness classes, and engage in collaborative wellness activities. ",
+    desc: "Fitness Companions is a dedicated online platform designed to connect individuals with similar fitness goals and interests. The platform serves as a virtual community where users can  join fitness classes, and engage in collaborative wellness activities. ",
     tags: [
       {
-        name: "NextJs",
+        name: "React",
         color: "red-600",
       },
       {
-        name: "ChakraUI",
+        name: "TailwindCSS",
         color: "green-600",
       },
       {
-        name: "SocketIO",
-        color: "yellow-600",
+        name: "NodeJs",
+        color: "green-600",
+      },
+      {
+        name: "ExpressJs",
+        color: "green-600",
       },
       {
         name: "MongoDB",
-        color: "blue-800",
+        color: "green-600",
       },
     ],
     img: "https://i.ibb.co/KNJ8BDN/p2.png",
@@ -46,20 +66,24 @@ export const projects = [
     desc: "This virtual shopping destination provides users with the opportunity to explore and purchase a wide range of clothing, accessories, and footwear from various brands and designers. ",
     tags: [
       {
-        name: "Python",
+        name: "React",
         color: "red-600",
       },
       {
-        name: "Discord.py",
+        name: "TailwindCSS",
         color: "green-600",
       },
       {
-        name: "discord-interactions",
-        color: "yellow-600",
+        name: "NodeJs",
+        color: "green-600",
       },
       {
-        name: "Flask",
-        color: "blue-800",
+        name: "ExpressJs",
+        color: "green-600",
+      },
+      {
+        name: "MongoDB",
+        color: "green-600",
       },
     ],
     img: "https://i.ibb.co/rynygQY/p3.png",

@@ -25,16 +25,16 @@ export default function About() {
         About Me
       </div>
       <div className="flex flex-row  gap-6 ml-8">
-        <div className="flex-col mt-14 flex flex-auto w-64 gap-6">
+        <div className="flex-col mt-14 flex flex-auto md:w-64 gap-6">
           <h3
             className="text-xl lg:text-3xl font-medium"
             data-aos={"fade-left"}
           >
-            I'm <span className="text-yellow-600">Jubayer Hossain,</span> a Web
-            Developer
+            I'm <span className="text-yellow-300">Jubayer Hossain,</span>a Web
+            Developer.
           </h3>
           <p
-            className="pt-5 text-left text-white "
+            className="py-5 text-left text-white "
             data-aos={"fade-left"}
           >
             Aspiring MERN Stack Developer leveraging a dynamic blend of technical proficiency and unyielding passion for crafting innovative web
@@ -42,7 +42,7 @@ export default function About() {
             React, and Node.js to drive the development of cutting-edge applications.
           </p>
           <p
-            className="pb-7 text-left  text-white"
+            className="pb-7  text-right  text-white md:flex hidden"
             data-aos={"fade-right"}
           >
             I have completed my BSc and MSc degree in Computer Science and Engineering at Jatiya Kabi Kazi Nazrul Islam University.
@@ -56,11 +56,7 @@ export default function About() {
           class="relative flex-auto w-32   sm:rounded-lg  pl-4"
           data-aos={"slide-left"}
         >
-          {/* <img
-            src={LearningCode}
-            alt="Learning Code"
-            className="motion-safe:animate-zoomy"
-          /> */}
+
           <div className="motion-safe:animate-zoomy">
             <lottie-player
               autoplay
@@ -70,7 +66,7 @@ export default function About() {
               style={{ width: "350px" }}
             />
           </div>
-          <button className="py-1 md:py-2 lg:py-3 mt-3 lg:mt-5 text-white mx-auto px-4  lg:px-9 bg-blue-600 border-2 w-fit border-blue-500 rounded-3xl  hover:-translate-y-1.5 duration-[350ms] hover:duration-[350ms] hover:bg-blue-800 hover:scale-[1.023] focus:bg-blue-800 sm:text-xl  animate-zoomy">
+          <button className="py-1 md:mr-0 mr-2 md:py-2 lg:py-3 mt-3 lg:mt-5 text-white mx-auto px-4  lg:px-9 bg-blue-600 border-2 w-fit border-blue-500 rounded-3xl  hover:-translate-y-1.5 duration-[350ms] hover:duration-[350ms] hover:bg-blue-800 hover:scale-[1.023] focus:bg-blue-800 sm:text-xl  animate-zoomy">
             <a
               href={jubayer_resume}
               download={"Jubayer's Resume.pdf"}

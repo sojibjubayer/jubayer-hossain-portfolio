@@ -147,7 +147,7 @@ export default function Contact() {
             />
           </div>
           <div data-aos={"slide-up"} className="text-center mt-10">
-            <div className="text-center  mt-2  text-3xl xs:text-xl md:text-2xl font-bold">
+            <div className="text-center  mt-2  text-xl  md:text-3xl font-bold">
               Connect With Me
             </div>
             <div className="text-white flex flex-row gap-7 w-fit mx-auto pt-4">

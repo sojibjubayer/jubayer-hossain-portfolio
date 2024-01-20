@@ -95,8 +95,16 @@ export const projects = [
     desc: "Donation campaign is a purpose-driven, organized effort to raise funds from individuals, groups, or communities for a specific cause or project.",
     tags: [
       {
-        name: "ReactJs",
+        name: "React",
         color: "red-600",
+      },
+      {
+        name: "TailwindCSS",
+        color: "green-600",
+      },
+      {
+        name: "NodeJs",
+        color: "green-600",
       },
       {
         name: "ExpressJs",
@@ -104,7 +112,7 @@ export const projects = [
       },
       {
         name: "MongoDB",
-        color: "blue-800",
+        color: "green-600",
       },
     ],
     img: "https://i.ibb.co/vwJdKj8/p4.png",

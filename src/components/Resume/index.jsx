@@ -1,6 +1,6 @@
 import BarGraph from "./BarGraph";
 import DownloadIcon from "@mui/icons-material/Download";
-import jubayer_resume from '../../assets/files/jubayer_resume.pdf';
+import jubayer_resume from '../../assets/files/JUBAYER HOSSAIN.pdf';
 
 
 export default function Resume() {

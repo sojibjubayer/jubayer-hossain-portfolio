@@ -6,7 +6,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import CopyrightIcon from "@mui/icons-material/Copyright";
-import emailjs from "emailjs-com";
+import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useRef, useState } from "react";
@@ -19,20 +19,41 @@ export default function Contact() {
 
   const sendEmail = (e) => {
     e.preventDefault();
-  
-    emailjs
-      .sendForm('service_bk7ds19', 'template_c4pr2hl', form.current, 'JMbvDoJRFOmYz5ra4')
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-          toast.error(`Error sending email: ${error.text}`);
-        }
-      );
+
+    emailjs.sendForm('service_n8t7uct', 'template_wpjw7j6', form.current, 'rZyfG-xxDcsNTeW7c')
+    .then(
+      (response) => {
+        setMailSent(true);
+        setLoading(false);
+        toast.success("Message Sent Successfully!", {
+          position: "bottom-center",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "colored",
+        });
+        console.log("SUCCESS!", response.status, response.text);
+      },
+      (err) => {
+        setLoading(false);
+        toast.error("Error occured!", {
+          position: "bottom-center",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "colored",
+        });
+        console.log("FAILED...", err);
+      }
+    );
   };
-  
+
   return (
     <div
       id="contact"
@@ -133,6 +154,15 @@ export default function Contact() {
               <FileDownloadDoneIcon /> Message Sent
             </button>
           </form>
+          {/* <form ref={form} onSubmit={sendEmail} className="text-black">
+            <label>Name</label>
+            <input type="text" name="user_name" /> <br /> <br /><br />
+            <label>Email</label>
+            <input type="email" name="user_email" /> <br /><br />
+            <label>Message</label>
+            <textarea name="message" /> <br /><br />
+            <input className="text-white" type="submit" value="Send" />
+          </form> */}
         </div>
         <div className="flex-auto w-full md:w-80  flex flex-col justify-center text-center items-center  gap-1">
           <div
@@ -158,7 +188,7 @@ export default function Contact() {
               >
                 <GitHubIcon className="cursor-pointer hover:scale-105" />
               </div>
-              
+
               <div
                 onClick={() =>
                   window.open(
@@ -181,7 +211,7 @@ export default function Contact() {
                 <FacebookIcon className="cursor-pointer hover:scale-105" />
               </div>{" "}
             </div>
-           
+
           </div>
         </div>
         <ToastContainer
@@ -198,10 +228,10 @@ export default function Contact() {
         />
       </div>
       <div className="mt-6 italic text-sm font-medium text-blue-500 ">
-              <span className=" pl-1 ">Copyright</span>
-              <CopyrightIcon className="cursor-pointer mx-1" />
-              <span>2023 Jubayer Hossain</span>
-            </div>
+        <span className=" pl-1 ">Copyright</span>
+        <CopyrightIcon className="cursor-pointer mx-1" />
+        <span>2023 Jubayer Hossain</span>
+      </div>
     </div>
   );
 }

@@ -1,8 +1,6 @@
 import "../../App.css";
 import DownloadIcon from "@mui/icons-material/Download";
-// import LearningCode from "../../assets/images/learn-coding-clipart.svg";
-import * as LottiePlayer from "@lottiefiles/lottie-player";
-import jubayer_resume from '../../assets/files/jubayer_resume.pdf';
+import jubayer_resume from '../../assets/files/JUBAYER HOSSAIN.pdf';
 
 export default function About() {
   const getDate = () => {
@@ -66,7 +64,7 @@ export default function About() {
               style={{ width: "350px" }}
             />
           </div>
-          <button className="py-1 md:mr-0 mr-2 md:py-2 lg:py-3 mt-3 lg:mt-5 text-white mx-auto px-4  lg:px-9 bg-blue-600 border-2 w-fit border-blue-500 rounded-3xl  hover:-translate-y-1.5 duration-[350ms] hover:duration-[350ms] hover:bg-blue-800 hover:scale-[1.023] focus:bg-blue-800 sm:text-xl  animate-zoomy">
+          <button className="py-1 md:mr-0 mr-2 md:py-2 lg:py-3 mt-3 lg:mt-5 text-white mx-auto md:px-4  lg:px-9 bg-blue-600 border-2 w-fit border-blue-500 rounded-3xl  hover:-translate-y-1.5 duration-[350ms] hover:duration-[350ms] hover:bg-blue-800 hover:scale-[1.023] focus:bg-blue-800 sm:text-xl  animate-zoomy">
             <a
               href={jubayer_resume}
               download={"Jubayer's Resume.pdf"}

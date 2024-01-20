@@ -1,4 +1,4 @@
-import jubayerImage from '../../assets/images/jubayer.png';
+import jubayerImage from '../../assets/images/jubayer.jpg';
 import Typewriter from "typewriter-effect";
 import GraphemeSplitter from "grapheme-splitter";
 import "../../App.css";
@@ -19,7 +19,7 @@ export default function Home() {
     />
       
       <h1
-        className=" text-3xl md:text-5xl font-semibold tracking-[3px] pb-2 mt-6 "
+        className=" text-3xl md:text-5xl font-semibold tracking-[3px] pb-2 mt-10 "
         data-aos="zoom-in-up"
       >
         Welcome

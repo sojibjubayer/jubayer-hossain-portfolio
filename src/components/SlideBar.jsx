@@ -3,7 +3,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import { useState } from "react";
-import jubayerImage from '../assets/images/jubayer.png';
+import jubayerImage from '../assets/images/jubayer2.jpg';
 
 export default function Slidebar() {
   const [select, setSelect] = useState(0);
@@ -14,7 +14,7 @@ export default function Slidebar() {
           <img
             src={jubayerImage} 
             alt="Jubayer Hossain"
-            className="rounded-full border-solid cursor-pointer  border-[8px] border-stone-600 min-h-fit mx-auto  max-w-[190px]"
+            className="rounded-lg border-solid cursor-pointer  border-[2px] border-stone-600 min-h-fit mx-auto  max-w-[90px]"
           />
           <h3 className="text-white name py-4 font-medium ">
             Jubayer Hossain

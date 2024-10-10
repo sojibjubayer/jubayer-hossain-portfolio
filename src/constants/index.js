@@ -1,5 +1,31 @@
 export const projects = [
   {
+    title: "Laptop Bazaar | Buy Laptops",
+    desc: "Laptop Bazaar is an innovative marketplace dedicated to providing a comprehensive range of laptops and related accessories. Our project aims to create a dynamic and user-friendly platform where consumers can explore, compare, and purchase the latest laptop models from various brands.",
+    tags: [
+      {
+        name: "Nextjs",
+        color: "red-600",
+      },
+      {
+        name: "React",
+        color: "green-600",
+      },
+      {
+        name: "TailwindCSS",
+        color: "green-600",
+      },
+    
+      {
+        name: "MongoDB",
+        color: "green-600",
+      },
+    ],
+    img: "https://i.ibb.co/wpQWt6w/laptop-bazaar.png",
+    link: "https://laptop-bazaar-99.vercel.app",
+    code: "https://github.com/sojibjubayer/laptop-bazaar",
+  },
+  {
     title: "Blood Donation Application",
     desc: "The Blood Donation Application is created as a user-friendly platform that facilitates blood donation activities. The application will connect donors with those in need of blood, promoting a seamless and efficient donation process.",
     tags: [
@@ -90,34 +116,6 @@ export const projects = [
     link: "https://fashion-app-de3f4.web.app",
     code: "https://github.com/sojibjubayer/fashion-app",
   },
-  {
-    title: "Donation Campaign",
-    desc: "Donation campaign is a purpose-driven, organized effort to raise funds from individuals, groups, or communities for a specific cause or project.",
-    tags: [
-      {
-        name: "React",
-        color: "red-600",
-      },
-      {
-        name: "TailwindCSS",
-        color: "green-600",
-      },
-      {
-        name: "NodeJs",
-        color: "green-600",
-      },
-      {
-        name: "ExpressJs",
-        color: "green-600",
-      },
-      {
-        name: "MongoDB",
-        color: "green-600",
-      },
-    ],
-    img: "https://i.ibb.co/vwJdKj8/p4.png",
-    link: "https://right-airplane.surge.sh",
-    code: "https://github.com/sojibjubayer/donation-campaign",
-  },
+  
 
 ];

@@ -1,4 +1,4 @@
-import jubayerImage from '../../assets/images/jubayer.jpg';
+import jubayerImage from '../../assets/images/jubayer2.jpg';
 import Typewriter from "typewriter-effect";
 import GraphemeSplitter from "grapheme-splitter";
 import "../../App.css";
@@ -15,7 +15,7 @@ export default function Home() {
     <img
             src={jubayerImage} 
             alt="Jubayer Hossain"
-            className="flex md:hidden mt-2 mb-5 mx-auto rounded-full border-solid cursor-pointer  border-[2px] border-stone-600 min-h-fit   max-w-[50px]"
+            className="flex md:hidden mt-2 mb-5 mx-auto rounded-2xl border-solid cursor-pointer  border-[2px] border-stone-600 min-h-fit   max-w-[50px]"
     />
       
       <h1

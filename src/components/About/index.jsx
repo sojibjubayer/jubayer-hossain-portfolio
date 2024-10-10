@@ -1,7 +1,8 @@
 import "../../App.css";
 import DownloadIcon from "@mui/icons-material/Download";
 import jubayer_resume from '../../assets/files/JUBAYER HOSSAIN.pdf';
-
+import Lottie from "lottie-react";
+import lottieGear from '../../../src/lottie-gear.json'
 export default function About() {
   const getDate = () => {
     var dob = new Date("12/21/1993");
@@ -22,17 +23,17 @@ export default function About() {
       >
         About Me
       </div>
-      <div className="flex flex-row  gap-6 ml-8">
+      <div className="flex flex-col md:flex-row   gap-6 ml-8">
         <div className="flex-col mt-14 flex flex-auto md:w-64 gap-6">
           <h3
-            className="text-xl lg:text-3xl font-medium"
+            className="text-lg lg:text-xl font-medium px-2"
             data-aos={"fade-left"}
           >
-            I'm <span className="text-yellow-300">Jubayer Hossain,</span>a Web
+            I'm <span className="text-yellow-300">Jubayer Hossain, </span>a MERN Statck
             Developer.
           </h3>
           <p
-            className="py-5 text-left text-white "
+            className="py-4 px-2 text-left text-white "
             data-aos={"fade-left"}
           >
             Aspiring MERN Stack Developer leveraging a dynamic blend of technical proficiency and unyielding passion for crafting innovative web
@@ -40,7 +41,7 @@ export default function About() {
             React, and Node.js to drive the development of cutting-edge applications.
           </p>
           <p
-            className="pb-7  text-right  text-white md:flex hidden"
+            className="pb-7  text-left  text-white md:flex hidden"
             data-aos={"fade-right"}
           >
             I have completed my BSc and MSc degree in Computer Science and Engineering at Jatiya Kabi Kazi Nazrul Islam University.
@@ -51,28 +52,20 @@ export default function About() {
         </div>
 
         <div
-          class="relative flex-auto w-32   sm:rounded-lg  pl-4"
+          class="relative flex-auto md:w-32 w-60  sm:rounded-lg  pl-4"
           data-aos={"slide-left"}
         >
 
           <div className="motion-safe:animate-zoomy">
-            <lottie-player
-              autoplay
-              loop
-              mode="bounce"
-              src="https://assets10.lottiefiles.com/packages/lf20_w98qte06.json"
-              style={{ width: "350px" }}
-            />
+           <Lottie animationData={lottieGear} />
           </div>
-          <button className="py-1 md:mr-0 mr-2 md:py-2 lg:py-3 mt-3 lg:mt-5 text-white mx-auto md:px-4  lg:px-9 bg-blue-600 border-2 w-fit border-blue-500 rounded-3xl  hover:-translate-y-1.5 duration-[350ms] hover:duration-[350ms] hover:bg-blue-800 hover:scale-[1.023] focus:bg-blue-800 sm:text-xl  animate-zoomy">
-            <a
-              href={jubayer_resume}
-              download={"Jubayer's Resume.pdf"}
-            >
-              Download Resume
-              <DownloadIcon />
-            </a>
-          </button>
+          <a
+            href={jubayer_resume}
+            download={"Jubayer's Resume"}
+            class="inline-flex items-center px-6 py-2 md:mt-12 my-4 mx-auto md:w-fit text-sm font-medium border rounded-lg  focus:z-10 focus:ring-4 focus:outline-none focus:text-blue-700 bg-gray-800 text-gray-400 border-gray-600 hover:text-white hover:bg-gray-700 focus:ring-gray-700"
+          >
+            Download Resume <DownloadIcon />
+          </a>
         </div>
       </div>
     </div>

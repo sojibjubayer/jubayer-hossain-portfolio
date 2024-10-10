@@ -1,12 +1,14 @@
 import BarGraph from "./BarGraph";
 import DownloadIcon from "@mui/icons-material/Download";
-import jubayer_resume from '../../assets/files/JUBAYER HOSSAIN.pdf';
-
+import jubayer_resume from "../../assets/files/JUBAYER HOSSAIN.pdf";
 
 export default function Resume() {
   return (
     <div id="resume" className="min-h-screen flex-col text-center">
-      <div className="text-3xl md:text-5xl font-bold py-8" data-aos={"slide-left"}>
+      <div
+        className="text-3xl lg:text-5xl font-bold py-8"
+        data-aos={"slide-left"}
+      >
         Resume
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-7 mt-7">
@@ -32,12 +34,13 @@ export default function Resume() {
             </h3>
 
             <p class="text-base font-normal text-gray-400 text-left ml-2 md:ml-5 mb-5">
-              Passionate Front-End Developer with a strong focus on creating exceptional user interfaces using
-              cutting-edge technologies. Proficient in JavaScript, React,Next.js and experienced in harnessing the power
-              of UI frameworks such as Tailwind, Bootstrap, Daisy UI,
-              and Material UI. Dedicated to crafting visually stunning and highly responsive web applications.
+              Passionate Front-End Developer with a strong focus on creating
+              exceptional user interfaces using cutting-edge technologies.
+              Proficient in JavaScript, React,Next.js and experienced in
+              harnessing the power of UI frameworks such as Tailwind, Bootstrap,
+              Daisy UI, and Material UI. Dedicated to crafting visually stunning
+              and highly responsive web applications.
             </p>
-
           </li>
           <li class="mb-10" data-aos="zoom-out" data-aos-delay="700">
             <span class="absolute flex items-center justify-center w-6 h-6 rounded-full -left-3 ring-8 ring-gray-900 bg-blue-900">
@@ -59,10 +62,12 @@ export default function Resume() {
               BackEnd Development
             </h3>
             <p class="text-base font-normal text-gray-400 text-left ml-2 md:ml-5 mb-5">
-              Comfortable in Node.js, Express.js for creating scalable and efficient back-end solutions. Sound knowledge in database management with MongoDB Atlas and Mongoose. Committed to optimizing server performance and ensuring seamless
-              integration between front-end and back-end components.
+              Comfortable in Node.js, Express.js for creating scalable and
+              efficient back-end solutions. Sound knowledge in database
+              management with MongoDB Atlas and Mongoose. Committed to
+              optimizing server performance and ensuring seamless integration
+              between front-end and back-end components.
             </p>
-
           </li>
           <li class="mb-10" data-aos="zoom-in">
             <span class="absolute flex items-center justify-center w-6 h-6   rounded-full -left-3 ring-8  ring-gray-900 bg-blue-900">
@@ -85,39 +90,92 @@ export default function Resume() {
             </h3>
 
             <p class=" text-base font-normal  text-gray-400 text-left ml-2 md:ml-5 mb-5">
-              Hard working | Empathy | Adaptability | Quick learner | Flexibility
-
+              Hard working | Empathy | Adaptability | Quick learner |
+              Flexibility
             </p>
-
           </li>
-
-
         </ol>
 
         <div className="flex flex-col text-center" data-aos="slide-up">
-          <div className="text-2xl font-bold pb-3 border-2  border-green-400 rounded-md w-[50%] mx-auto">My Skills</div>
+          <div className="text-2xl font-bold pb-3 border-2  border-green-400 rounded-md w-[50%] mx-auto">
+            My Skills
+          </div>
           <div className="ml-16 flex flex-col gap-6 mt-6">
             <div className="flex gap-2">
-              <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" className="w-[40%] h-[50px]" alt="javascript" />
-              <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" className="w-[40%] h-[50px]" />
+              <img
+                src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"
+                className="w-[40%] h-[50px]"
+                alt="javascript"
+              />
+              <img
+                src="https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"
+                className="w-[40%] h-[50px]"
+              />
+
+             
             </div>
             <div className="flex gap-2">
-              <img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white" className="w-[40%] h-[50px]" />
-              <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" className="w-[40%] h-[50px]" />
+            <img
+                src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"
+                className="w-[40%] h-[50px]"
+              />
+              <img
+                src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white"
+                className="w-[40%] h-[50px]"
+              />
+              
             </div>
             <div className="flex gap-2">
-              <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" className="w-[40%] h-[50px]" />
-              <img src="https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white" className="w-[40%] h-[50px]" />
+            <img
+                src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white"
+                className="w-[40%] h-[50px]"
+              />
+            
+              <img
+                src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"
+                className="w-[40%] h-[50px]"
+              />
             </div>
             <div className="flex gap-2">
-              <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" className="w-[40%] h-[50px]" />
-              <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" className="w-[40%] h-[50px]" />
+              <img
+                src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white"
+                className="w-[40%] h-[50px]"
+              />
+              <img
+                src="https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white"
+                className="w-[40%] h-[50px]"
+              />
             </div>
             <div className="flex gap-2">
-              <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB" className="w-[40%] h-[50px]" />
-              <img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white" className="w-[40%] h-[50px]" />
+              <img
+                src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"
+                className="w-[40%] h-[50px]"
+              />
+              <img
+                src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB"
+                className="w-[40%] h-[50px]"
+              />
             </div>
-            <img src="https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white" className="w-[40%] h-[50px]" />
+            <div className="flex gap-2">
+              <img
+                src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white"
+                className="w-[40%] h-[50px]"
+              />
+              <img
+                src="https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white"
+                className="w-[40%] h-[50px]"
+              />
+             
+            </div>
+            <div className="flex gap-2">
+            
+               <img
+                src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"
+                className="w-[40%] h-[50px]"
+              />
+            </div>
+
+             
           </div>
 
           <a
